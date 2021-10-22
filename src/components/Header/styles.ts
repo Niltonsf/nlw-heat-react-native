@@ -9,7 +9,12 @@ export const styles = StyleSheet.create({
 		alignItems: 'center',
 		paddingHorizontal: 20
 	},
+	logOutButton: {
+		flexDirection: 'row',
+		alignItems: 'center',
+	},
 	logoutText: {
+		marginRight: 20,
 		fontSize: 15,
 		fontFamily: FONTS.REGULAR,
 		color: COLORS.WHITE,

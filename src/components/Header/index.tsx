@@ -13,11 +13,13 @@ export function Header(){
 		<View style={styles.container}>
 			<LogoSvg />
 
-			<UserPhoto imageUri="https://github.com/niltonsf.png"/>
-
-			<TouchableOpacity>
-				<Text style={styles.logoutText}>Sair</Text>
-			</TouchableOpacity>
+			<View style={styles.logOutButton}>
+				<TouchableOpacity>
+					<Text style={styles.logoutText}>Sair</Text>
+				</TouchableOpacity>
+				
+				<UserPhoto imageUri="https://github.com/niltonsf.png"/>
+			</View>
 		</View>
 	);
 }
